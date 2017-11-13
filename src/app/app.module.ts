@@ -9,6 +9,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { TodoProvider } from '../providers/todo/todo';
 import { ArchivedtodoPageModule } from '../pages/archivedtodo/archivedtodo.module';
+import { ArchivedtodoPage } from '../pages/archivedtodo/archivedtodo';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ArchivedtodoPageModule } from '../pages/archivedtodo/archivedtodo.modul
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    ArchivedtodoPage
   ],
   providers: [
     StatusBar,
